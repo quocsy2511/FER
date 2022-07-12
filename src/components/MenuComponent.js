@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Media } from 'reactstrap';
 
+
 class Menu extends Component {
     constructor(props) {
         super(props);
@@ -16,6 +17,7 @@ class Menu extends Component {
                     description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.' 
                 },
 
+                
                 {
                     id: 1,
                     name: 'Zucchipakoda',
