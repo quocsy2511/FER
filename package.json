@@ -39,7 +39,12 @@
     ]
   },
   "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "^0.0.7",
     "onchange": "^3.3.0",
-    "parallelshell": "^3.0.2"
+    "parallelshell": "^3.0.2",
+    "rimraf": "^2.6.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   }
 }
