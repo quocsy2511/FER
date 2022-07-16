@@ -34,13 +34,13 @@ class Contact extends Component {
                         <BreadcrumbItem active>Contact Us</BreadcrumbItem>
                     </Breadcrumb>
                     <div className="col-12">
-                        <h3>Contact Us</h3>
+                        <h3 class="text-secondary">Contact Us</h3>
                         <hr />
                     </div>                
                 </div>
                 <div className="row row-content">
                     <div className="col-12">
-						<h3>Location Information</h3>
+						<h3 class="text-secondary">Location Information</h3>
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-1">
 						<h5>Our Address</h5>
@@ -66,7 +66,7 @@ class Contact extends Component {
                 </div>
                 <div className="row row-content">
                     <div className="col-12">
-                        <h3>Send us your Feedback</h3>
+                        <h3 class="text-secondary">Send us your Feedback</h3>
                     </div>
 					<div className="col-12 col-md-9">
                         <LocalForm onSubmit={(values) => this.handleSubmit(values)}>
